@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/twilio/cocoapod-specs'
+
+platform :ios, '8.0'
+use_frameworks!
+
+target :'FieldXT' do
+    pod 'AWSCognito'
+    pod 'AWSCognitoIdentityProvider'
+    pod 'AWSS3'
+    pod 'AWSSES'
+    pod 'AWSSQS'
+    pod 'Socket.IO-Client-Swift', '~> 6.1.1'
+    pod 'TwilioSDK', '~> 1.2'
+end

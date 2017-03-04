@@ -1,0 +1,12 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AWSCognito" "$PODS_CONFIGURATION_BUILD_DIR/AWSCognitoIdentityProvider" "$PODS_CONFIGURATION_BUILD_DIR/AWSCore" "$PODS_CONFIGURATION_BUILD_DIR/AWSS3" "$PODS_CONFIGURATION_BUILD_DIR/AWSSES" "$PODS_CONFIGURATION_BUILD_DIR/AWSSQS" "$PODS_CONFIGURATION_BUILD_DIR/Socket.IO-Client-Swift"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TwilioSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/TwilioSDK/Libraries"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSCognito/AWSCognito.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSCore/AWSCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSS3/AWSS3.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSSES/AWSSES.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSSQS/AWSSQS.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Socket.IO-Client-Swift/SocketIOClientSwift.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TwilioSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -read_only_relocs suppress -l"TwilioClient" -l"crypto" -l"ssl" -framework "AVFoundation" -framework "AWSCognito" -framework "AWSCognitoIdentityProvider" -framework "AWSCore" -framework "AWSS3" -framework "AWSSES" -framework "AWSSQS" -framework "AudioToolbox" -framework "CFNetwork" -framework "SocketIOClientSwift" -framework "SystemConfiguration"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

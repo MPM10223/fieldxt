@@ -1,0 +1,37 @@
+PODS:
+  - AWSCognito (2.4.2):
+    - AWSCore (= 2.4.2)
+  - AWSCognitoIdentityProvider (2.4.2):
+    - AWSCore (= 2.4.2)
+  - AWSCore (2.4.2)
+  - AWSS3 (2.4.2):
+    - AWSCore (= 2.4.2)
+  - AWSSES (2.4.2):
+    - AWSCore (= 2.4.2)
+  - AWSSQS (2.4.2):
+    - AWSCore (= 2.4.2)
+  - Socket.IO-Client-Swift (6.1.1)
+  - TwilioSDK (1.2.7)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSS3
+  - AWSSES
+  - AWSSQS
+  - Socket.IO-Client-Swift (~> 6.1.1)
+  - TwilioSDK (~> 1.2)
+
+SPEC CHECKSUMS:
+  AWSCognito: 87cf3dadb17eed732c1c3fe21624fa8f15ef84ec
+  AWSCognitoIdentityProvider: c0eaf378dcd9d36595f188821119aa8dab70431c
+  AWSCore: 08cc4318682a518ad73e452900336ba54e823e03
+  AWSS3: 21bbd5d41eb175bf2fd371dc8af5339752f7f5b7
+  AWSSES: 9df63d2b69878cdbf43a945bf76951eac52b7119
+  AWSSQS: 9b4f52f03b9175ae15425a900e14528338ee3155
+  Socket.IO-Client-Swift: 86a3744e1da181a4078a24a632bd3acc34b9f1f5
+  TwilioSDK: d3982acf6880ddf3ce57c4444e021a71c5f35653
+
+PODFILE CHECKSUM: d41d9725a1fa07b609a5004ff45e59f5b7804368
+
+COCOAPODS: 1.0.0
